@@ -1,0 +1,101 @@
+/* Estilos para el contenedor principal */
+.home-container {
+  display: flex;
+  flex-direction: column; /* Alinea los elementos verticalmente */
+  justify-content: center; /* Centra verticalmente en el medio de la pantalla */
+  align-items: center; /* Alinea horizontalmente en el medio de la pantalla */
+  height: 100vh; /* 100% del alto de la ventana */
+  text-align: center; /* Centra el contenido horizontalmente */
+  padding: 20px; /* Espacio alrededor del contenido */
+}
+
+/* Estilos para el título */
+.title {
+  font-size: 24px; /* Tamaño de fuente del título */
+  margin-bottom: 20px; /* Espacio inferior entre el título y las fotos */
+}
+
+/* Estilos para el contenedor de imágenes */
+.photo-container {
+  display: flex;
+  justify-content: space-between; /* Espacio entre las dos columnas */
+  width: 100%; /* Ancho completo del contenedor */
+  max-width: 800px; /* Ancho máximo para las dos columnas */
+}
+
+/* Estilos para cada columna de imágenes */
+.column {
+  width: 50%; /* Ancho del 50% del contenedor */
+  display: flex;
+  flex-direction: column;
+  margin-left: 0;
+  align-items: flex-start; /* Alinea las imágenes y textos al margen izquierdo de la columna */
+}
+
+.left-column {
+  margin-left: 0; /* Alinea la columna completamente a la izquierda */
+  align-items: flex-start;
+}
+
+
+/* Estilos para las imágenes */
+.photo-item {
+  width: 100%; /* Ancho completo de la columna para la imagen */
+  height: 200px; /* Altura fija para todas las imágenes */
+  margin-bottom: 20px; /* Espacio inferior entre imágenes */
+  display: flex; /* Alinea la imagen y el texto en una columna */
+  align-items: center; /* Centra verticalmente la imagen y el texto */
+}
+
+/* Estilos para las imágenes en sí */
+.photo {
+  max-width: 200px; /* Ancho máximo deseado para las imágenes */
+  height: 100%; /* Altura al 100% del contenedor */
+  margin-right: 20px; /* Espacio a la derecha de la imagen */
+  transition: transform 0.5s ease; /* Transición suave para el cambio de tamaño */
+}
+
+.photo:hover {
+  transform: scale(1.2); /* Escala la imagen al 120% del tamaño original */
+}
+/* Estilos para los textos */
+.photo-text {
+  margin-top: 10px; /* Espacio superior entre las imágenes y los textos */
+}
+.home-container {
+  padding: 40px 20px; /* 40px arriba, 20px a los lados, 40px abajo */
+  /* Resto de tus estilos */
+}
+
+/* Estilos para el contenedor principal */
+.home-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; /* Espacio entre el título y las imágenes */
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+  padding: 40px 20px; /* Agrega más espacio arriba y abajo */
+}
+
+/* Estilos para el espacio entre el h1 y las fotos */
+.spacer {
+  margin-bottom: 50px; /* Ajusta el margen inferior según tus necesidades */
+}
+
+
+/* Estilos para el título */
+.title {
+  font-size: 24px;
+  margin-bottom: 10px; /* Menos espacio entre el título y las imágenes */
+}
+
+/* Estilos para el botón */
+button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
